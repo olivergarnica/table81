@@ -1,0 +1,19 @@
+# my venv
+.db81env/
+
+# cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# secrets & tokens
+client_secret.json
+token.pickle
+.env
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# logs
+*.log
