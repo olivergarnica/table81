@@ -17,3 +17,6 @@ token.pickle
 
 # logs
 *.log
+
+# APIs
+.env
