@@ -20,3 +20,7 @@ token.pickle
 
 # APIs
 .env
+
+# Tokens
+tokens/*.pickle
+src/*.pickle
