@@ -32,7 +32,7 @@ engine = create_engine(DATABASE_URL, poolclass=NullPool, future=True)
 metadata = MetaData()
 
 
-# Table Defn
+# Tables
 
 channels = Table(
     "channels", metadata,
@@ -141,7 +141,7 @@ def upsert_video_monthly(rows: Sequence[dict]):     return _upsert(video_monthly
 
 
 """
-Delete rows older than `retain_days` from video_daily_stats.
+Delete rows older than 'retain_days' from video_daily_stats.
 Returns number of rows deleted (rowcount may be -1 if unknown).
 """
 def prune_old_video_daily(retain_days: int = 30) -> int:
